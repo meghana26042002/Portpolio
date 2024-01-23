@@ -1,0 +1,30 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+    background-image:black;
+    color: white;
+    font-size: 30px;
+    
+    
+    }
+h3{
+    font-weight: 30px;
+}
+h3:hover{
+transform: scale(1.1);
+}
+
+nav a{
+    margin: 0 2rem;
+    color:white;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+nav a:hover{
+    color:rgb(255, 30, 0);
+}
+
