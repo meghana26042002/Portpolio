@@ -18,6 +18,7 @@ const Navbar= () => {
                 <Link to="/#">About</Link>
                 <Link to="/#">Skills</Link>
                 <Link to="/#">Contact</Link>
+                
 
                 
         
