@@ -4,9 +4,10 @@
     box-sizing: border-box;
     text-decoration: none;
     background: transparent;
+    font-family: sans-serif;
 }
 body{
-    background: rgb(30,30,30);
+  background-color: black;
     color: white;
     overflow: hidden;
     overflow-y: scroll;
