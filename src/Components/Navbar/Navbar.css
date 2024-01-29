@@ -16,10 +16,10 @@
 
     object-fit: cover;
     height: 3rem;
-    width: 4rem;
+    width: 3rem;
 }
 .List{
-    margin: 1rem;
+    margin-left:5rem;
     cursor: pointer;
     color: white;
    font-size: 18px;
