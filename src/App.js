@@ -1,8 +1,9 @@
 import React from "react";
 import { BrowserRouter,Route, Routes  } from 'react-router-dom';
-
 import Navbar from './Components/Navbar/Navbar';
 import Home from './Components/Home/Home';
+import Skills from "./Components/Skills/Skills";
+import  Contact  from "./Components/Contact/Contact";
 
 
 
@@ -10,15 +11,17 @@ import Home from './Components/Home/Home';
  export  const App= ()=> {
   return(
   
-<div className="App">
+<>
 <BrowserRouter>  
 
 
         <Navbar />
         
-        <Home/>
+       
         <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/Home" element={<Home />} />
+        <Route path="/Skills" element={<Skills/>}/>
+        <Route path="/Contact" element={<Contact/>}/>
     
           
       
@@ -28,7 +31,7 @@ import Home from './Components/Home/Home';
         </BrowserRouter>
       
       
- </div>
+ </>
   
   
   

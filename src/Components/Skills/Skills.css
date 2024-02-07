@@ -1,0 +1,127 @@
+
+.skills_container{
+    height: 500px;
+    width: 500px;
+    margin-left: 25%;
+ 
+
+}
+
+.skills_content {
+    background-color: var(--container-color);
+    border: 1px solid palevioletred;
+    padding: 2rem 4rem;
+    border-radius: 1.25rem;
+    width: 640px;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%; 
+
+  
+
+
+}
+
+.skills_title {
+    margin-left: 7rem;
+    line-height: 7rem;
+    color: palevioletred;
+    font-size: 30px;
+
+
+}
+
+.section_title {
+    font-size: 4rem;
+    font-weight: 100px;
+    line-height: 10rem;
+    color: palevioletred;
+
+
+    text-align: center;
+
+}
+
+.skills_box {
+    display: flex;
+    justify-content: center;
+    column-gap: 2.5rem;
+
+}
+
+
+
+.skills_name {
+    font-size: 30px;
+
+
+    font-weight: 30px;
+    line-height: 4rem;
+    margin-left: 20px;
+    
+}
+
+.skills_level {
+    font-size: 20px;
+    margin-left: 60px;
+}
+
+.section_subtitle {
+    margin-left: 43%;
+    line-height: 5rem;
+    font-size: 30px;
+
+
+}
+.skills_group{
+    height:10px;
+    width: 500px;
+    margin-left: 6rem;
+    
+
+}
+.skills_react{
+   margin-left: 20rem;
+   margin-top: -15.5rem;
+   font-size: 30px;
+   line-height: 2.4rem;
+
+
+   font-weight: 30px;
+  
+
+
+}
+.skills_git{
+    margin-left: 20rem;
+    margin-top: 1.5rem;
+    font-size: 30px;
+    font-weight: 30px;
+
+}
+.skills_intermediate{
+    font-size: 1px;
+    margin-left: 50px;
+    margin-left: 22rem;
+    margin-top: -15.5rem;
+    font-size: 20px;
+    line-height: 2rem;
+ 
+ 
+    font-weight: 30px;
+   
+}
+.skills_basic{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-left: 22rem;
+    margin-top: -15.5rem;
+    font-size: 20px;
+    line-height: 2rem;
+ 
+ 
+    font-weight: 30px;
+   
+}
+

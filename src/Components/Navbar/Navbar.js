@@ -10,18 +10,18 @@ const Navbar= () => {
     return(
         
         <nav className="navbar">
-           <img src={logo1} alt="image"height={80}width={300}/>
+           <Link to ="/Home"><img src={logo1} alt="image"height={80}width={300}/></Link>
            <div className="desktopMenu">
            <Link to="/Home" className="List">Home</Link>
                 <Link to="/About" className="List">About</Link>
-                <Link to="/Skiils"className="List">Skills</Link>
+                <Link to="/Skills"className="List">Skills</Link>
                 
                 
                 
                 
 
            </div>
-         <Link to="C:\Users\t\portfolio\src\Components\Contact\Contact.js"> <button className="desktopMenubtn">Contact Me</button></Link> 
+         <Link to="/Contact"> <button className="desktopMenubtn">Contact Me</button></Link> 
           
         
            
