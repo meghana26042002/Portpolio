@@ -11,5 +11,4 @@ const ContactCard = ({iconUrl,text}) => {
     </div>
   )
 }
-
 export default ContactCard;

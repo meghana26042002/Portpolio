@@ -19,10 +19,6 @@
     border-radius: 50%;
  
 
- 
-
-
-
 }
 .introContent{
     height: 100vh;
@@ -41,7 +37,7 @@
 
 }
 .IntroName{
-    color: palevioletred;
+    color: rgb(247, 4, 85);
     
 
 }
@@ -50,18 +46,26 @@
     font-weight: 30rem;
 }
 .btn{
-    height: 2rem;
+    height: 3rem;
     width: 10rem;
-    background-color:black;
+    background-color:rgb(247, 4, 85);
     color: white;
     border: none;
     align-items: center;
     display: flex;
     justify-content: center;
     padding: 0 1rem;
-    border-radius: 20px;
+    border-radius: 10px;
     margin-top: 2rem;
     
 }
+.btn:hover{
+    background-color:rgb(133, 8, 29) ;
+}
+.image:hover{
+   transform: scale(0.9);
+   transition: transform 0.5s ease;
+   
 
+}
 
